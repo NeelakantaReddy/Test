@@ -1,0 +1,9 @@
+Datacenter notes.
+
+Registering message points to note.
+
+the channel name is limited to 20 alphanumeric characters.
+the message body is limited to 200 characters.
+registering a message consumer does not prevent it being garbage collected, it is the responsibility of the plugin to maintain a reference to it as long as it is needed.
+if a node is unavailable or in the process of being restarted, it will not process any messages sent during the time it was offline.
+while the id of the sender is exposed to the message consumer it is best to avoid relying on any particular node being available.

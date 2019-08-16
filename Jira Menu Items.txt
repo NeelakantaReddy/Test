@@ -1,0 +1,17 @@
+Adding web items to JIRA.
+
+Create plugin using atlas-create-jira-plugin
+
+clean up the source generated automatically.
+
+Add Web sections where your information must go 
+
+Add weblink with the name to be appears on the section
+Add webitem with the Website link
+Add Webitem with the Documentation link.
+
+and run the instance 
+
+atlas-package to reload the plugin.
+
+
