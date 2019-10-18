@@ -1,0 +1,14 @@
+JWB - Jira Workflow Bundle
+work flow bundle is used define the flow of the issue
+workflow flows can be generated using existing project setup
+Settings -> Issues -> Worlkflows.
+
+
+JSON configuration file is used when add-project element is used in the project-blueprint plugin-module	
+Resouce download must be in one place 
+Key must be unique in atlassian-plugin.xml
+
+Label names must be sent through properties file which is good practice for us
+
+Successfully tested your project
+
